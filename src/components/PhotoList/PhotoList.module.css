@@ -1,0 +1,42 @@
+.photoItem img {
+    max-width: 100%;
+    height: 15rem;
+    margin-bottom: 8px;
+  }
+  .photoItem {
+    flex: 0 0 auto;
+      width: 25vw;
+      height: 50vh;
+      scroll-snap-align: start; /* Snap alignment to the start of each item */
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+
+  }
+  @media (max-width: 600px) {
+    .photoItem {
+      width: 75vw;
+    }
+    
+  }
+  .photoItem p {
+    font-size: 14px;
+    margin: 0 auto;
+    width: 17rem;
+      text-wrap: wrap;
+     
+  }
+  
+  .photoListContainer {
+    margin-top: 20px;
+  }
+  
+  .shweta {
+    display: flex;
+    width: 100vw;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap; 
+}
+  

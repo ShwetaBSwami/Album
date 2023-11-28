@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+1. Added test cases for app.tsx file using jest testing library.
+    To run this -> yarn test
+
+2. Added service worker.
+
+3. Used typescript
+
+4. Use Functional components. we can create many more things like we can create common api, create custom hooks for common things

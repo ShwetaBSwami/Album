@@ -1,0 +1,14 @@
+.crumb {
+    margin-right: 4px;
+  }
+  
+  .crumb > span {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .breadcrumbsContainer {
+    margin-top: 20px;
+  }
+  
